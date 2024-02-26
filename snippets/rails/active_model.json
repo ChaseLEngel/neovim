@@ -1,0 +1,47 @@
+{
+  "Just the model comments": {
+    "prefix": [
+      "modelcomments"
+    ],
+    "body": [
+      "# == Constants ==============================================================",
+      "",
+      "# == Attributes =============================================================",
+      "",
+      "# == Extensions =============================================================",
+      "",
+      "# == Relationships ==========================================================",
+      "",
+      "# == Validations ============================================================",
+      "",
+      "# == Scopes =================================================================",
+      "",
+      "# == Callbacks ==============================================================",
+      "",
+      "# == Class Methods ==========================================================",
+      "",
+      "# == Instance Methods ======================================================="
+    ],
+    "description": "Just the model comments"
+  },
+  "ActiveModel::Model": {
+    "prefix": [
+      "activemodel"
+    ],
+    "body": [
+      "class $1",
+      "  include ActiveModel::Model",
+      "end"
+    ],
+    "description": "ActiveModel::Model"
+  },
+  "Numbercailty validation": {
+    "prefix": [
+      "validatesnumber"
+    ],
+    "body": [
+      "validates :$1, numericality: {}"
+    ],
+    "description": "Numbercailty validation"
+  }
+}

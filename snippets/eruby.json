@@ -1,0 +1,71 @@
+{
+  "%": {
+    "prefix": [
+      "<%"
+    ],
+    "body": [
+      "<% $0 %>"
+    ],
+    "description": "ERB tag"
+  },
+  "if else": {
+    "prefix": [
+      "if_else"
+    ],
+    "body": [
+      "<% if $0 %>",
+      "<% else %>",
+      "<% end %>"
+    ],
+    "description": "if else"
+  },
+  "if": {
+    "prefix": [
+      "if"
+    ],
+    "body": [
+      "<% if $0 %>",
+      "<% end %>"
+    ],
+    "description": "if"
+  },
+  "else": {
+    "prefix": [
+      "else"
+    ],
+    "body": [
+      "<% else %>",
+      "$0"
+    ],
+    "description": "else"
+  },
+  "end": {
+    "prefix": [
+      "end"
+    ],
+    "body": [
+      "<% end %>"
+    ],
+    "description": "end"
+  },
+  "ERB expression tag": {
+    "prefix": [
+      "=",
+      "<%="
+    ],
+    "body": [
+      "<%= $0 %>"
+    ],
+    "description": "ERB expression tag"
+  },
+  "each": {
+    "prefix": [
+      "each"
+    ],
+    "body": [
+      "<% @$1.each do |$2| %>\n",
+      "<% end %>"
+    ],
+    "description": "ERB each block"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "IF statement": {
+    "prefix": [
+      "IF_THEN"
+    ],
+    "body": [
+      "IF $1 THEN",
+      "END IF;"
+    ],
+    "description": "IF statement"
+  }
+}

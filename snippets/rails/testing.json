@@ -1,0 +1,201 @@
+{
+  "MiniTest Spec": {
+    "prefix": [
+      "spec"
+    ],
+    "body": [
+      "require \"test_helper\"",
+      "",
+      "describe $1 do",
+      "end"
+    ],
+    "description": "MiniTest Spec"
+  },
+  "MiniTest Spec describe": {
+    "prefix": [
+      "describe"
+    ],
+    "body": [
+      "describe $1 do",
+      "end"
+    ],
+    "description": "MiniTest Spec describe"
+  },
+  "MiniTest Spec it": {
+    "prefix": [
+      "it"
+    ],
+    "body": [
+      "it \"$1\" do",
+      "end"
+    ],
+    "description": "MiniTest Spec it"
+  },
+  "System Test": {
+    "prefix": [
+      "systemtest"
+    ],
+    "body": [
+      "require 'application_system_test_case'",
+      "",
+      "class $1Test < ApplicationSystemTestCase",
+      "  def setup",
+      "    sign_in_as users(:chase)",
+      "  end",
+      "end"
+    ],
+    "description": "System Test"
+  },
+  "Test Class": {
+    "prefix": [
+      "tc"
+    ],
+    "body": [
+      "require 'test_helper'",
+      "",
+      "class $1Test < ActiveSupport::TestCase",
+      "end"
+    ],
+    "description": "Test Class"
+  },
+  "Test": {
+    "prefix": [
+      "test"
+    ],
+    "body": [
+      "test '$1' do",
+      "  assert false",
+      "end"
+    ],
+    "description": "Test"
+  },
+  "assert_difference": {
+    "prefix": [
+      "assert_difference"
+    ],
+    "body": [
+      "assert_difference '$1.count' do",
+      "end"
+    ],
+    "description": "assert_difference"
+  },
+  "assert_equal": {
+    "prefix": [
+      "assert_equal"
+    ],
+    "body": [
+      "assert_equal $1, $2"
+    ],
+    "description": "assert_equal"
+  },
+  "assert": {
+    "prefix": [
+      "assert"
+    ],
+    "body": [
+      "assert $1, $2"
+    ],
+    "description": "assert"
+  },
+  "assert_redirected_to": {
+    "prefix": [
+      "assert_redirected_to"
+    ],
+    "body": [
+      "assert_redirected_to $1_path"
+    ],
+    "description": "assert_redirected_to"
+  },
+  "assert_response": {
+    "prefix": [
+      "assert_response"
+    ],
+    "body": [
+      "assert_response :$1"
+    ],
+    "description": "assert_response"
+  },
+  "Integration Test": {
+    "prefix": [
+      "integrationtest"
+    ],
+    "body": [
+      "require 'test_helper'",
+      "",
+      "class $1IntegrationTest < ActionDispatch::IntegrationTest",
+      "  setup do",
+      "    sign_in_as users(:chase)",
+      "  end",
+      "end"
+    ],
+    "description": "Integration Test"
+  },
+  "Controller Test": {
+    "prefix": [
+      "controllertest"
+    ],
+    "body": [
+      "require 'test_helper'",
+      "",
+      "class $1ControllerTest < ActionDispatch::IntegrationTest",
+      "  def setup",
+      "    sign_in_as users(:chase)",
+      "  end",
+      "",
+      "  test 'index' do",
+      "    assert false",
+      "  end",
+      "",
+      "  test 'show' do",
+      "    assert false",
+      "  end",
+      "",
+      "  test 'new' do",
+      "    assert false",
+      "  end",
+      "",
+      "  test 'edit' do",
+      "    assert false",
+      "  end",
+      "",
+      "  test 'create' do",
+      "    assert false",
+      "  end",
+      "",
+      "  test 'update' do",
+      "    assert false",
+      "  end",
+      "",
+      "  test 'destroy' do",
+      "    assert false",
+      "  end",
+      "end"
+    ],
+    "description": "Controller Test"
+  },
+  "ActiveJob Test": {
+    "prefix": [
+      "jobtest"
+    ],
+    "body": [
+      "require 'test_helper'",
+      "",
+      "class $1JobTest < ActiveJob::TestCase",
+      "  include ActiveJob::Test",
+      "end"
+    ],
+    "description": "ActiveJob Test"
+  },
+  "ActionMailer Test": {
+    "prefix": [
+      "mailertest"
+    ],
+    "body": [
+      "require \"test_helper\"",
+      "",
+      "class $0MailerTest < ActionMailer::TestCase",
+      "end"
+    ],
+    "description": "ActionMailer Test"
+  }
+}

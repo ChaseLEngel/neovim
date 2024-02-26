@@ -1,0 +1,63 @@
+{
+  "frozen-string-literal": {
+    "prefix": [
+      "fsl"
+    ],
+    "body": [
+      "# frozen_string_literal: true"
+    ],
+    "description": "frozen-string-literal"
+  },
+  "Class": {
+    "prefix": [
+      "class"
+    ],
+    "body": [
+      "class $1",
+      "  def initialize()",
+      "  end",
+      "end"
+    ],
+    "description": "Class"
+  },
+  "comment": {
+    "prefix": [
+      "#"
+    ],
+    "body": [
+      "# "
+    ],
+    "description": "comment"
+  },
+  "def initialize": {
+    "prefix": [
+      "definit"
+    ],
+    "body": [
+      "def initialize($1)",
+      "end"
+    ],
+    "description": "def initialize"
+  },
+  "if": {
+    "prefix": [
+      "if"
+    ],
+    "body": [
+      "if $0",
+      "end"
+    ],
+    "description": "if statement"
+  },
+  "if else": {
+    "prefix": [
+      "ifelse"
+    ],
+    "body": [
+      "if $0",
+      "else",
+      "end"
+    ],
+    "description": "if else statement"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "Ruby on Rails Controller": {
+    "prefix": [
+      "controller"
+    ],
+    "body": [
+      "class $1Controller < ApplicationController",
+      "\tdef index",
+      "\tend",
+      "",
+      "\tdef show",
+      "\tend",
+      "",
+      "\tdef new",
+      "\tend",
+      "",
+      "\tdef edit",
+      "\tend",
+      "",
+      "\tdef create",
+      "\tend",
+      "",
+      "\tdef update",
+      "\tend",
+      "",
+      "\tdef destroy",
+      "\tend",
+      "end"
+    ],
+    "description": "Ruby on Rails Controller"
+  },
+  "ActionController::API": {
+    "prefix": [
+      "apicontroller"
+    ],
+    "body": [
+      "class $1Controller < ActionController::API",
+      "  def index",
+      "  end",
+      "",
+      "  def show",
+      "  end",
+      "",
+      "  def new",
+      "  end",
+      "",
+      "  def create",
+      "  end",
+      "",
+      "  def update",
+      "  end",
+      "",
+      "  def destroy",
+      "  end",
+      "end"
+    ],
+    "description": "ActionController::API"
+  }
+}

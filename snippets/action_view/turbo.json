@@ -1,0 +1,167 @@
+{
+  "turbo_frame_tag": {
+    "prefix": [
+      "turbo_frame_tag"
+    ],
+    "body": [
+      "<%= turbo_frame_tag :$1 %>"
+    ],
+    "description": "turbo_frame_tag"
+  },
+  "remove to the element with the DOM ID": {
+    "prefix": [
+      "turbo_stream_remove"
+    ],
+    "body": [
+      "<%= turbo_stream.remove $0 %>"
+    ],
+    "description": "remove to the element with the DOM ID"
+  },
+  "remove_all to the element with the DOM ID": {
+    "prefix": [
+      "turbo_stream_remove_all"
+    ],
+    "body": [
+      "<%= turbo_stream.remove_all $0 %>"
+    ],
+    "description": "remove_all to the element with the DOM ID"
+  },
+  "replace to the element with the DOM ID": {
+    "prefix": [
+      "turbo_stream_replace"
+    ],
+    "body": [
+      "<%= turbo_stream.replace $0 do %>",
+      "<% end %>"
+    ],
+    "description": "replace to the element with the DOM ID"
+  },
+  "replace_all to the element with the DOM ID": {
+    "prefix": [
+      "turbo_stream_replace_all"
+    ],
+    "body": [
+      "<%= turbo_stream.replace_all $0 do %>",
+      "<% end %>"
+    ],
+    "description": "replace_all to the element with the DOM ID"
+  },
+  "before to the element with the DOM ID": {
+    "prefix": [
+      "turbo_stream_before"
+    ],
+    "body": [
+      "<%= turbo_stream.before $0 do %>",
+      "<% end %>"
+    ],
+    "description": "before to the element with the DOM ID"
+  },
+  "before_all to the element with the DOM ID": {
+    "prefix": [
+      "turbo_stream_before_all"
+    ],
+    "body": [
+      "<%= turbo_stream.before_all $0 do %>",
+      "<% end %>"
+    ],
+    "description": "before_all to the element with the DOM ID"
+  },
+  "after to the element with the DOM ID": {
+    "prefix": [
+      "turbo_stream_after"
+    ],
+    "body": [
+      "<%= turbo_stream.after $0 do %>",
+      "<% end %>"
+    ],
+    "description": "after to the element with the DOM ID"
+  },
+  "after_all to the element with the DOM ID": {
+    "prefix": [
+      "turbo_stream_after_all"
+    ],
+    "body": [
+      "<%= turbo_stream.after_all $0 do %>",
+      "<% end %>"
+    ],
+    "description": "after_all to the element with the DOM ID"
+  },
+  "update to the element with the DOM ID": {
+    "prefix": [
+      "turbo_stream_update"
+    ],
+    "body": [
+      "<%= turbo_stream.update $0 do %>",
+      "<% end %>"
+    ],
+    "description": "update to the element with the DOM ID"
+  },
+  "update_all to the element with the DOM ID": {
+    "prefix": [
+      "turbo_stream_update_all"
+    ],
+    "body": [
+      "<%= turbo_stream.update_all $0 do %>",
+      "<% end %>"
+    ],
+    "description": "update_all to the element with the DOM ID"
+  },
+  "append to the element with the DOM ID": {
+    "prefix": [
+      "turbo_stream_append"
+    ],
+    "body": [
+      "<%= turbo_stream.append $0 do %>",
+      "<% end %>"
+    ],
+    "description": "append to the element with the DOM ID"
+  },
+  "append_all to the element with the DOM ID": {
+    "prefix": [
+      "turbo_stream_append_all"
+    ],
+    "body": [
+      "<%= turbo_stream.append_all $0 do %>",
+      "<% end %>"
+    ],
+    "description": "append_all to the element with the DOM ID"
+  },
+  "prepend to the element with the DOM ID": {
+    "prefix": [
+      "turbo_stream_prepend"
+    ],
+    "body": [
+      "<%= turbo_stream.prepend $0 do %>",
+      "<% end %>"
+    ],
+    "description": "prepend to the element with the DOM ID"
+  },
+  "prepend_all to the element with the DOM ID": {
+    "prefix": [
+      "turbo_stream_prepend_all"
+    ],
+    "body": [
+      "<%= turbo_stream.prepend_all $0 do %>",
+      "<% end %>"
+    ],
+    "description": "prepend_all to the element with the DOM ID"
+  },
+  "action to the element with the DOM ID": {
+    "prefix": [
+      "turbo_stream_action"
+    ],
+    "body": [
+      "<%= turbo_stream.action $0 %>"
+    ],
+    "description": "action to the element with the DOM ID"
+  },
+  "action_all to the element with the DOM ID": {
+    "prefix": [
+      "turbo_stream_action_all"
+    ],
+    "body": [
+      "<%= turbo_stream.action_all $0 %>"
+    ],
+    "description": "action_all to the element with the DOM ID"
+  }
+}

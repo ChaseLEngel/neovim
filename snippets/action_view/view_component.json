@@ -1,0 +1,21 @@
+{
+  "render ViewComponent": {
+    "prefix": [
+      "render_component"
+    ],
+    "body": [
+      "<%= render $1Component.new %>"
+    ],
+    "description": "render ViewComponent"
+  },
+  "render ViewComponent with block": {
+    "prefix": [
+      "render_component_with_block"
+    ],
+    "body": [
+      "<%= render $1Component.new() do |c| %>",
+      "<% end %>"
+    ],
+    "description": "render ViewComponent with block"
+  }
+}

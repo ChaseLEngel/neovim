@@ -1,0 +1,164 @@
+{
+  "div with mb-3": {
+    "prefix": [
+      "form_group"
+    ],
+    "body": [
+      "<div class=\"mb-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "div with mb-3"
+  },
+  "Bootstrap list group": {
+    "prefix": [
+      "listgroup",
+      "lg"
+    ],
+    "body": [
+      "<ul class=\"list-group\">",
+      "  <li class=\"list-group-item\">$1</li>",
+      "</ul>"
+    ],
+    "description": "Bootstrap list group"
+  },
+  "Bootstrap list group item": {
+    "prefix": [
+      "listgroupitem",
+      "lgi"
+    ],
+    "body": [
+      "<li class=\"list-group-item\">$1</li>"
+    ],
+    "description": "Bootstrap list group item"
+  },
+  "Bootstrap Alert success": {
+    "prefix": [
+      "alert_success"
+    ],
+    "body": [
+      "<div class=\"alert alert-success\" role=\"alert\">",
+      "\t$1",
+      "</div>"
+    ],
+    "description": "Bootstrap Alert success"
+  },
+  "Bootstrap Alert primary": {
+    "prefix": [
+      "alert_primary"
+    ],
+    "body": [
+      "<div class=\"alert alert-primary\" role=\"alert\">",
+      "\t$1",
+      "</div>"
+    ],
+    "description": "Bootstrap Alert primary"
+  },
+  "Bootstrap Alert danger": {
+    "prefix": [
+      "alert_danger"
+    ],
+    "body": [
+      "<div class=\"alert alert-danger\" role=\"alert\">",
+      "\t$1",
+      "</div>"
+    ],
+    "description": "Bootstrap Alert danger"
+  },
+  "Bootstrap input group prepend": {
+    "prefix": [
+      "igp"
+    ],
+    "body": [
+      "<div class=\"input-group\">",
+      "  <div class=\"input-group-prepend\">",
+      "    <span class=\"input-group-text\">$1</span>",
+      "  </div>",
+      "  $2",
+      "</div>"
+    ],
+    "description": "Bootstrap input group prepend"
+  },
+  "Bootstrap input group append": {
+    "prefix": [
+      "input_group_append",
+      "iga"
+    ],
+    "body": [
+      "<div class=\"input-group\">",
+      "  <div class=\"input-group-append\">",
+      "    <span class=\"input-group-text\">$1</span>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap input group append"
+  },
+  "Bootstrap card": {
+    "prefix": [
+      "card"
+    ],
+    "body": [
+      "<div class=\"card\">",
+      "  <div class=\"card-body\">",
+      "    <h5 class=\"card-title\">TITLE</h5>",
+      "    <h6 class=\"card-subtitle mb-2 text-muted\">SUBTITLE</h6>",
+      "    <p class=\"card-text\">BODY</p>",
+      "    <a href=\"#\" class=\"card-link\">LINK</a>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap card"
+  },
+  "Bootstrap table": {
+    "prefix": [
+      "table"
+    ],
+    "body": [
+      "<table class=\"table\">",
+      "  <thead>",
+      "    <tr>",
+      "      <th scope=\"col\">$1</th>",
+      "    </tr>",
+      "  </thead>",
+      "  <tbody>",
+      "    <tr>",
+      "      <td scope=\"row\">1</td>",
+      "    </tr>",
+      "  </tbody>",
+      "</table>"
+    ],
+    "description": "Bootstrap table"
+  },
+  "Row with 2 columns": {
+    "prefix": [
+      "row2col"
+    ],
+    "body": [
+      "<div class=\"row\">",
+      "  <div class=\"col\">",
+      "  </div>",
+      "  <div class=\"col\">",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap Row with 2 columns"
+  },
+  "column": {
+    "prefix": [
+      "col"
+    ],
+    "body": [
+      "<div class=\"col\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap column"
+  },
+  "column": {
+    "prefix": [
+      "icon"
+    ],
+    "body": ["<i class=\"bi bi-$0\"></i>"],
+    "description": "Bootstrap icon"
+  }
+}

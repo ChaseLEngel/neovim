@@ -1,0 +1,11 @@
+{
+  "Rails logger debug": {
+    "prefix": [
+      "debug"
+    ],
+    "body": [
+      "Rails.logger.debug \"$0\""
+    ],
+    "description": "Rails logger debug"
+  }
+}

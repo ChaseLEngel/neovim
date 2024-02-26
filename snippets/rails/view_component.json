@@ -1,0 +1,48 @@
+{
+  "ViewComponent": {
+    "prefix": [
+      "view_component"
+    ],
+    "body": [
+      "# frozen_string_literal: true",
+      "",
+      "class $1Component < ViewComponent::Base",
+      "  def initialize()",
+      "  end",
+      "end"
+    ],
+    "description": "ViewComponent"
+  },
+  "ViewComponent rendering many": {
+    "prefix": [
+      "view_component_renders_many"
+    ],
+    "body": [
+      "# frozen_string_literal: true",
+      "",
+      "class $1Component < ViewComponent::Base",
+      "  renders_many :items",
+      "",
+      "  def initialize()",
+      "  end",
+      "end"
+    ],
+    "description": "ViewComponent rendering many"
+  },
+  "ViewComponent rendering one": {
+    "prefix": [
+      "view_component_renders_one"
+    ],
+    "body": [
+      "# frozen_string_literal: true",
+      "",
+      "class $1Component < ViewComponent::Base",
+      "  renders_one :item",
+      "",
+      "  def initialize()",
+      "  end",
+      "end"
+    ],
+    "description": "ViewComponent rendering one"
+  }
+}

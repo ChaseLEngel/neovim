@@ -1,0 +1,14 @@
+{
+  "ActionCable Channel": {
+    "prefix": [
+      "channel"
+    ],
+    "body": [
+      "class $1Channel < ApplicationCable::Channel",
+      "  def subscribed",
+      "  end",
+      "end"
+    ],
+    "description": "ActionCable Channel"
+  }
+}

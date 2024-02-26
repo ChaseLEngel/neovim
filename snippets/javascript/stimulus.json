@@ -1,0 +1,17 @@
+{
+  "Stimulus.js Controller": {
+    "prefix": [
+      "controller"
+    ],
+    "body": [
+      "import ApplicationController from './application_controller'",
+      "",
+      "export default class extends ApplicationController {",
+      "  connect() {",
+      "    console.log('connect')",
+      "  }",
+      "}"
+    ],
+    "description": "Stimulus.js Controller"
+  }
+}

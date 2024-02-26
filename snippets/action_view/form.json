@@ -1,0 +1,146 @@
+{
+  "form.password": {
+    "prefix": [
+      "form.password"
+    ],
+    "body": [
+      "<%= form.password_field :$0, class: 'form-control' %>"
+    ],
+    "description": "form.password_field"
+  },
+  "form.submit": {
+    "prefix": [
+      "form.submit"
+    ],
+    "body": [
+      "<%= form.submit nil, class: 'btn btn-primary' %>"
+    ],
+    "description": "form.submit"
+  },
+  "form.date_field": {
+    "prefix": [
+      "form.date"
+    ],
+    "body": [
+      "<%= form.date_field :$1, class: 'form-control' %>"
+    ],
+    "description": "form.date_field"
+  },
+  "form.hidden_field": {
+    "prefix": [
+      "form.hidden_field"
+    ],
+    "body": [
+      "<%= form.hidden_field :$1, value: $2 %>"
+    ],
+    "description": "form.hidden_field"
+  },
+  "form.email_field": {
+    "prefix": [
+      "form.email_field"
+    ],
+    "body": [
+      "<%= form.email_field :$1, class: 'form-control' %>"
+    ],
+    "description": "form.email_field"
+  },
+  "form.label": {
+    "prefix": [
+      "form.label"
+    ],
+    "body": [
+      "<%= form.label :$0, class: 'form-label' %>"
+    ],
+    "description": "form.label"
+  },
+  "form.text_field": {
+    "prefix": [
+      "form.text_field"
+    ],
+    "body": [
+      "<%= form.text_field :$0, class: 'form-control' %>"
+    ],
+    "description": "form.text_field"
+  },
+  "form.file_field": {
+    "prefix": [
+      "form.file_field"
+    ],
+    "body": [
+      "<%= form.file_field :$0, class: 'form-control' %>"
+    ],
+    "description": "form.file_field"
+  },
+  "check_box and label": {
+    "prefix": [
+      "form.check_box_and_label"
+    ],
+    "body": [
+      "<div class=\"form-check\">",
+      "  <%= form.check_box :$0, class: 'form-check-input' %>",
+      "  <%= form.label :$0, class: 'form-check-label' %>",
+      "</div>"
+    ],
+    "description": "check_box and label"
+  },
+  "form.check_box": {
+    "prefix": [
+      "form.check_box"
+    ],
+    "body": [
+      "<%= form.check_box :$0, class: 'form-check-input' %>"
+    ],
+    "description": "form.check_box"
+  },
+  "form.label for check_box": {
+    "prefix": [
+      "form.check_box_label"
+    ],
+    "body": [
+      "<%= form.label $0, class: 'form-check-label' %>"
+    ],
+    "description": "form.label for check_box"
+  },
+  "form.check_box for multiple selection": {
+    "prefix": [
+      "form.check_box_mutliple"
+    ],
+    "body": [
+      "<%= form.check_box :attribute, { multiple: true, include_hidden: false, class: 'form-check-input' }, value %>",
+      "<%= form.label \"attribute_#{value}\", key, class: 'form-check-label' %>"
+    ],
+    "description": "form.check_box for multiple selection"
+  },
+  "form.text_area": {
+    "prefix": [
+      "form.text_area"
+    ],
+    "body": [
+      "<%= form.text_area :$0, class: 'form-control' %>"
+    ],
+    "description": "form.text_area"
+  },
+  "collection_select": {
+    "prefix": [
+      "form.collection_select"
+    ],
+    "body": [
+      "<%= form.collection_select :$1, collection, :id, :name, {}, class: 'form-select' %>"
+    ],
+    "description": "collection_select"
+  },
+  "collection_check_boxes": {
+    "prefix": [
+      "form.collection_check_boxes"
+    ],
+    "body": [
+      "<%= form.collection_check_boxes :$1, association, :id, :attribute do |b| %>",
+      "  <div class=\"form-check\">",
+      "    <%= b.check_box(class: 'form-check-input') %>",
+      "    <%= b.label(class: 'form-check-label') %>",
+      "  </div>",
+      "<% end %>"
+    ],
+    "description": "collection_check_boxes"
+  }
+}

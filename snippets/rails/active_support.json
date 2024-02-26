@@ -1,0 +1,23 @@
+{
+  "ActiveSupport::Concern": {
+    "prefix": [
+      "concern"
+    ],
+    "body": [
+      "module $1",
+      "  extend ActiveSupport::Concern",
+      "",
+      "  included do",
+      "  end",
+      "",
+      "  class_methods do",
+      "  end",
+      "end"
+    ],
+    "description": "ActiveSupport::Concern"
+  },
+  "Make association depend on destroy": {
+    "prefix": ["dependent :destroy"],
+    "body": ["dependent :destroy"]
+  }
+}

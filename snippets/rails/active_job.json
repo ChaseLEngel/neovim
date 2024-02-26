@@ -1,0 +1,16 @@
+{
+  "ActiveJob Job": {
+    "prefix": [
+      "job"
+    ],
+    "body": [
+      "class $1Job < ApplicationJob",
+      "  queue_as :default",
+      "",
+      "  def perform",
+      "  end",
+      "end"
+    ],
+    "description": "ActiveJob Job"
+  }
+}

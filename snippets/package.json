@@ -1,0 +1,33 @@
+{
+  "name": "snippys",
+  "contributes": {
+    "snippets": [
+      { "language": ["all"], "path": "./all.json" },
+      { "language": ["eruby"], "path": "./action_view.json" },
+      { "language": ["eruby"], "path": "./action_view/form.json" },
+      { "language": ["eruby"], "path": "./action_view/turbo.json" },
+      { "language": ["eruby"], "path": "./action_view/view_component.json" },
+      { "language": ["eruby"], "path": "./eruby.json" },
+      { "language": ["html", "eruby"], "path": "./html.json" },
+      { "language": ["html", "eruby"], "path": "./html/bootstrap.json" },
+      { "language": ["javascript"], "path": "./javascript.json" },
+      { "language": ["javascript"], "path": "./javascript/jest.json" },
+      { "language": ["javascript"], "path": "./javascript/stimulus.json" },
+      { "language": ["javascript"], "path": "./javascript/vue.json" },
+      { "language": ["ruby"], "path": "./rails.json" },
+      { "language": ["ruby"], "path": "./rails/action_cable.json" },
+      { "language": ["ruby"], "path": "./rails/action_controller.json" },
+      { "language": ["ruby"], "path": "./rails/active_job.json" },
+      { "language": ["ruby"], "path": "./rails/active_model.json" },
+      { "language": ["ruby"], "path": "./rails/active_support.json" },
+      { "language": ["ruby"], "path": "./rails/application_record.json" },
+      { "language": ["ruby"], "path": "./rails/factory_bot.json" },
+      { "language": ["ruby"], "path": "./rails/fuelmor.json" },
+      { "language": ["ruby"], "path": "./rails/pundit.json" },
+      { "language": ["ruby"], "path": "./rails/testing.json" },
+      { "language": ["ruby"], "path": "./rails/view_component.json" },
+      { "language": ["ruby"], "path": "./ruby.json" },
+      { "language": ["sql"], "path": "./sql.json" }
+    ]
+  }
+}

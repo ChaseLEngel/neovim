@@ -1,0 +1,96 @@
+{
+  "content_tag": {
+    "prefix": [
+      "content_tag"
+    ],
+    "body": [
+      "<%= content_tag :$0 do %>",
+      "<% end %>"
+    ],
+    "description": "content_tag"
+  },
+  "button_to": {
+    "prefix": [
+      "button_to"
+    ],
+    "body": [
+      "<%= button_to '$0', _path, class: 'btn btn-primary' %>"
+    ],
+    "description": "button_to"
+  },
+  "link_to": {
+    "prefix": [
+      "link_to"
+    ],
+    "body": [
+      "<%= link_to $0, _path, class: '' %>"
+    ],
+    "description": "link_to"
+  },
+  "Rails button_to for delete": {
+    "prefix": [
+      "button_to_delete"
+    ],
+    "body": [
+      "<%= button_to '$0', _path, method: :delete, class: 'btn btn-danger', data: { confirm: 'Are you sure?' } %>"
+    ],
+    "description": "Rails button_to for delete"
+  },
+  "render": {
+    "prefix": [
+      "render"
+    ],
+    "body": [
+      "<%= render '$1' %>"
+    ],
+    "description": "render"
+  },
+  "form_with": {
+    "prefix": [
+      "form_with"
+    ],
+    "body": [
+      "<%= form_with model: $0 do |form| %>",
+      "<% end %>"
+    ],
+    "description": "form_with"
+  },
+  "fields_for": {
+    "prefix": [
+      "fields_for"
+    ],
+    "body": [
+      "<%= fields_for :$1, $2 do |$3| %>",
+      "<% end %>"
+    ],
+    "description": "fields_for"
+  },
+  "content_for": {
+    "prefix": [
+      "content_for"
+    ],
+    "body": [
+      "<% content_for :$1 do %>",
+      "<% end %>"
+    ],
+    "description": "content_for"
+  },
+  "error_messages_for": {
+    "prefix": [
+      "error_messages_for"
+    ],
+    "body": [
+      "<%= error_messages_for $1, :$2 %>"
+    ],
+    "description": "error_messages_for"
+  },
+  "render_breadcrumbs": {
+    "prefix": [
+      "render_breadcrumbs"
+    ],
+    "body": [
+      "<%= render_breadcrumbs %>"
+    ],
+    "description": "render breadcrumbs"
+  }
+}

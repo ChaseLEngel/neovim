@@ -1,0 +1,74 @@
+{
+  "Vue Component": {
+    "prefix": [
+      "vue"
+    ],
+    "body": [
+      "<template>",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "  props: {},",
+      "  data () {",
+      "    return {}",
+      "  },",
+      "  mixins: [],",
+      "  created () {},",
+      "  methods: {},",
+      "  computed: {},",
+      "  components: {}",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "</style>"
+    ],
+    "description": "Vue Component"
+  },
+  "Vuex": {
+    "prefix": [
+      "vuex"
+    ],
+    "body": [
+      "import Vue from 'vue'",
+      "import Vuex from 'vuex'",
+      "",
+      "Vue.use(Vuex)",
+      "",
+      "/*",
+      " * State",
+      " */",
+      "const state = {}",
+      "",
+      "/*",
+      " * Getters",
+      " */",
+      "const getters = {}",
+      "",
+      "/*",
+      " * Mutations",
+      " */",
+      "const mutations = {}",
+      "",
+      "/*",
+      " * Actions",
+      " */",
+      "const actions = {}",
+      "",
+      "/*",
+      " * Modules",
+      " */",
+      "const modules = {}",
+      "",
+      "export const store = new Vuex.Store({",
+      "  state,",
+      "  getters,",
+      "  mutations,",
+      "  actions,",
+      "  modules",
+      "})"
+    ],
+    "description": "Vuex"
+  }
+}

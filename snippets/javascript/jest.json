@@ -1,0 +1,11 @@
+{
+  "Jest test": {
+    "prefix": [
+      "test"
+    ],
+    "body": [
+      "test('$1', () => {})"
+    ],
+    "description": "Jest test"
+  }
+}

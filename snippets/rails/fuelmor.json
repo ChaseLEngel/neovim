@@ -1,0 +1,41 @@
+{
+  "FuelMor::ServiceObject": {
+    "prefix": [
+      "serviceobject"
+    ],
+    "body": [
+      "class $1",
+      "  include FuelMor::ServiceObject",
+      "",
+      "  def initialize",
+      "  end",
+      "",
+      "  def call",
+      "  end",
+      "end"
+    ],
+    "description": "FuelMor::ServiceObject"
+  },
+  "Repository Pattern": {
+    "prefix": [
+      "repository"
+    ],
+    "body": [
+      "class $1Repository < ApplicationRepository",
+      "  def all",
+      "  end",
+      "end"
+    ],
+    "description": "Repository Pattern"
+  },
+  "Presenter": {
+    "prefix": [
+      "presenter"
+    ],
+    "body": [
+      "class $1Presenter < ApplicationPresenter",
+      "end"
+    ],
+    "description": "Presenter"
+  }
+}

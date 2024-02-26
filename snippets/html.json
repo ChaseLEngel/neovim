@@ -1,0 +1,32 @@
+{
+  "div": {
+    "prefix": ["div"],
+    "body": ["<div>$0</div>"],
+    "description": "div"
+  },
+  "h3": {
+    "prefix": ["h3"],
+    "body": ["<h3>$0</h3>"],
+    "description": "h3"
+  },
+  "dl": {
+    "prefix": ["dl"],
+    "body": [
+      "<dl>",
+      "\t<dt>$0</dt>",
+      "\t<dd>$1</dd>",
+      "</dl>"
+    ],
+    "description": "dl"
+  },
+  "dt": {
+    "prefix": ["dt"],
+    "body": ["<dt>$0</dt>"],
+    "description": "dt"
+  },
+  "dd": {
+    "prefix": ["dd"],
+    "body": ["<dd>$0</dd>"],
+    "description": "dd"
+  }
+}
