@@ -41,6 +41,19 @@ require("lazy").setup({
         },
       })
     end
+  },
+  { -- Autoformat
+    'stevearc/conform.nvim',
+    opts = {
+      notify_on_error = true,
+      format_on_save = {
+        timeout_ms = 500,
+        lsp_fallback = true,
+      },
+      formatters_by_ft = {
+        ruby = { 'rubocop' }
+      },
+    },
   }
 })
 -- [nvim-tree.lua] disable netrw at the very start of your init.lua
@@ -55,4 +68,5 @@ require "user.treesitter"
 require "user.cmp"
 require "user.theme"
 require "user.snippets"
+require "user.autoformat"
 require "user.search"
