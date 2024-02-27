@@ -16,7 +16,7 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappings are correct
 
 require("lazy").setup({
-	'neovim/nvim-lspconfig', -- Language server
+  'neovim/nvim-lspconfig', -- Language server config
 	'nvim-tree/nvim-tree.lua', -- Explorer
 	'hrsh7th/cmp-nvim-lsp',
 	'hrsh7th/cmp-buffer',
@@ -31,16 +31,7 @@ require("lazy").setup({
   {
     "nvim-neotest/neotest",
     lazy = true,
-    dependencies = {
-      "zidhuss/neotest-minitest",
-    },
-    config = function()
-      require("neotest").setup({
-        adapters = {
-          require("neotest-minitest")
-        },
-      })
-    end
+    dependencies = { "zidhuss/neotest-minitest" }
   },
   { -- Autoformat
     'stevearc/conform.nvim',
@@ -69,3 +60,4 @@ require "user.cmp"
 require "user.theme"
 require "user.snippets"
 require "user.search"
+require "user.test_runner"
