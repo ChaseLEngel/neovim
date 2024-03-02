@@ -20,6 +20,16 @@
     ],
     "description": "Class"
   },
+  "method": {
+    "prefix": [
+      "def"
+    ],
+    "body": [
+      "def $0",
+      "end"
+    ],
+    "description": "define method"
+  },
   "comment": {
     "prefix": [
       "#"

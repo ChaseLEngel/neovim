@@ -19,6 +19,18 @@ require("lazy").setup({
   'neovim/nvim-lspconfig', -- Language server config
 	'nvim-tree/nvim-tree.lua', -- Explorer
 	'hrsh7th/cmp-nvim-lsp',
+  { -- Adds git related signs to the gutter, as well as utilities for managing changes
+    'lewis6991/gitsigns.nvim',
+    opts = {
+      signs = {
+        add = { text = '+' },
+        change = { text = '~' },
+        delete = { text = '_' },
+        topdelete = { text = '‾' },
+        changedelete = { text = '~' },
+      },
+    },
+  },
 	'hrsh7th/cmp-buffer',
 	'hrsh7th/cmp-path',
 	'hrsh7th/cmp-cmdline',
