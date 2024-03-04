@@ -1,4 +1,13 @@
 {
+  "debug": {
+    "prefix": [
+      "debug"
+    ],
+    "body": [
+      "<% debug $0 %>"
+    ],
+    "description": "debug"
+  },
   "content_tag": {
     "prefix": [
       "content_tag"
