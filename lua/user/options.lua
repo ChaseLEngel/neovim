@@ -44,6 +44,3 @@ vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 -- Decrease update time
 vim.opt.updatetime = 250
 vim.opt.timeoutlen = 300
-
--- Minimal number of screen lines to keep above and below the cursor.
-vim.opt.scrolloff = 10
