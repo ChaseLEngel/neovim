@@ -42,8 +42,13 @@ require("lazy").setup({
   { 'nvim-telescope/telescope.nvim', dependencies = { { 'nvim-lua/plenary.nvim' } } }, -- Search
   {
     "nvim-neotest/neotest",
-    lazy = true,
-    dependencies = { "zidhuss/neotest-minitest" }
+    dependencies = {
+      "zidhuss/neotest-minitest",
+      "nvim-neotest/nvim-nio",
+      "nvim-lua/plenary.nvim",
+      "antoinemadec/FixCursorHold.nvim",
+      "nvim-treesitter/nvim-treesitter"
+    }
   },
   { -- Autoformat
     'stevearc/conform.nvim',
@@ -59,6 +64,14 @@ require("lazy").setup({
     },
   }
 })
+
+require('conform').setup({
+  format_on_save = {
+    timeout_ms = 500,
+    lsp_format = true
+  }
+})
+
 -- [nvim-tree.lua] disable netrw at the very start of your init.lua
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
