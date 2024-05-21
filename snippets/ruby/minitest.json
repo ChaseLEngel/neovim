@@ -1,0 +1,29 @@
+{
+  "assert_not": {
+    "prefix": [
+      "assert_not"
+    ],
+    "body": [
+      "assert_not $1"
+    ],
+    "description": "assert_not"
+  },
+  "assert": {
+    "prefix": [
+      "assert"
+    ],
+    "body": [
+      "assert $1"
+    ],
+    "description": "assert"
+  },
+  "assert_equal": {
+    "prefix": [
+      "assert_equal"
+    ],
+    "body": [
+      "assert_equal $1, $2"
+    ],
+    "description": "assert_equal"
+  }
+}

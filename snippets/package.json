@@ -27,6 +27,7 @@
       { "language": ["ruby"], "path": "./rails/testing.json" },
       { "language": ["ruby"], "path": "./rails/view_component.json" },
       { "language": ["ruby"], "path": "./ruby.json" },
+      { "language": ["ruby"], "path": "./ruby/minitest.json" },
       { "language": ["sql"], "path": "./sql.json" }
     ]
   }

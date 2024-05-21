@@ -1,12 +1,21 @@
 {
   "form.password": {
     "prefix": [
-      "form.password"
+      "form.password_field"
     ],
     "body": [
       "<%= form.password_field :$0, class: 'form-control' %>"
     ],
     "description": "form.password_field"
+  },
+  "form.number": {
+    "prefix": [
+      "form.number_field"
+    ],
+    "body": [
+      "<%= form.number_field :$0, class: 'form-control' %>"
+    ],
+    "description": "form.number_field"
   },
   "form.submit": {
     "prefix": [
