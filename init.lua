@@ -17,8 +17,9 @@ vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappin
 
 require("lazy").setup({
   'neovim/nvim-lspconfig', -- Language server config
-	'nvim-tree/nvim-tree.lua', -- Explorer
-	'hrsh7th/cmp-nvim-lsp',
+  'nvim-tree/nvim-tree.lua', -- Explorer
+  'tpope/vim-rails',
+  'hrsh7th/cmp-nvim-lsp',
   { -- Adds git related signs to the gutter, as well as utilities for managing changes
     'lewis6991/gitsigns.nvim',
     opts = {
@@ -31,6 +32,7 @@ require("lazy").setup({
       },
     },
   },
+  'rgroli/other.nvim',
 	'hrsh7th/cmp-buffer',
 	'hrsh7th/cmp-path',
 	'hrsh7th/cmp-cmdline',
@@ -55,7 +57,6 @@ require("lazy").setup({
     opts = {
       notify_on_error = true,
       format_on_save = {
-        timeout_ms = 500,
         lsp_fallback = true,
       },
       formatters_by_ft = {
@@ -65,17 +66,35 @@ require("lazy").setup({
   }
 })
 
-require('conform').setup({
-  format_on_save = {
-    timeout_ms = 500,
-    lsp_format = true
-  }
-})
-
 -- [nvim-tree.lua] disable netrw at the very start of your init.lua
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
+-- Function to create a new file with the name [current file]_test.rb
+function create_test_file()
+  -- Get the current file's name and path
+  local current_file = vim.fn.expand('%:p')
+
+  -- Check if the current file is a Ruby file
+  if not current_file:match('%.rb$') then
+    print('Current file is not a Ruby file.')
+    return
+  end
+
+  -- Construct the new filename
+  local new_file = current_file:gsub('%.rb$', '_test.rb'):gsub('app', 'test')
+
+  -- Create the new file and open it in a new buffer
+  vim.cmd('vsplit ' .. new_file)
+end
+
+-- Add the function to the global namespace
+_G.create_test_file = create_test_file
+
+-- Create a command to call the function
+vim.api.nvim_create_user_command('CreateTestFile', create_test_file, {})
+
+require "user.other"
 require "user.options"
 require "user.lsp"
 require "user.keymaps"
