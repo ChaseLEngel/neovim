@@ -20,6 +20,15 @@
     ],
     "description": "Class"
   },
+  "Class instance variable assignment": {
+    "prefix": [
+      "@ivar"
+    ],
+    "body": [
+      "@$1 = $1"
+    ],
+    "description": "Class instance variable assignment"
+  },
   "method": {
     "prefix": [
       "def"

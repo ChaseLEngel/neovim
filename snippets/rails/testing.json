@@ -69,6 +69,16 @@
     ],
     "description": "Test"
   },
+  "assert_raises": {
+    "prefix": [
+      "assert_raises"
+    ],
+    "body": [
+      "assert_raises $1 do",
+      "end"
+    ],
+    "description": "assert_raises"
+  },
   "assert_difference": {
     "prefix": [
       "assert_difference"
@@ -78,6 +88,16 @@
       "end"
     ],
     "description": "assert_difference"
+  },
+  "assert_no_difference": {
+    "prefix": [
+      "assert_no_difference"
+    ],
+    "body": [
+      "assert_no_difference '$1.count' do",
+      "end"
+    ],
+    "description": "assert_no_difference"
   },
   "assert_equal": {
     "prefix": [
@@ -181,7 +201,7 @@
       "require 'test_helper'",
       "",
       "class $1JobTest < ActiveJob::TestCase",
-      "  include ActiveJob::Test",
+      "  include ActiveJob::TestHelper",
       "end"
     ],
     "description": "ActiveJob Test"
