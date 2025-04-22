@@ -17,7 +17,11 @@
     "description": "ActiveSupport::Concern"
   },
   "Make association depend on destroy": {
-    "prefix": ["dependent :destroy"],
-    "body": ["dependent :destroy"]
+    "prefix": ["dependent: :destroy"],
+    "body": ["dependent: :destroy"]
+  },
+  "Association inverse of": {
+    "prefix": ["inverse_of: :"],
+    "body": ["inverse_of: :$0"]
   }
 }
