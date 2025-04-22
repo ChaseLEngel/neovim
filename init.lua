@@ -83,7 +83,8 @@ require("lazy").setup({
     keys = {
       { "<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit" }
     }
-  }
+  },
+  "folke/which-key.nvim"
 })
 
 -- [nvim-tree.lua] disable netrw at the very start of your init.lua
