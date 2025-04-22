@@ -83,8 +83,8 @@ lspconfig.solargraph.setup({
     filetypes = { "ruby" },
     settings = {
       solargraph = {
-        autoformat = false,
-        formatting = false,
+        autoformat = true,
+        formatting = true,
         completion = true,
         diagnostic = true,
         folding = true,
